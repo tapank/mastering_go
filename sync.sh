@@ -1,4 +1,4 @@
 git add -A
 git commit -m "update"
 git push
-cat "done"
+echo "done"
