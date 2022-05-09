@@ -1,7 +1,7 @@
-package minmax
+package main
 
 import "fmt"
 
-func main() {
+func minmax() {
 	fmt.Println("vim-go")
 }
