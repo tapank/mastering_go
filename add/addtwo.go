@@ -1,4 +1,4 @@
-package main
+package add
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"github.com/mactsouk/go/simpleGitHub"
 )
 
-func addtwo() {
+func AddTwo(a, b int) {
 	fmt.Println("This is a sample Go program!")
-	fmt.Println(simpleGitHub.AddTwo(3, 4))
+	fmt.Println(simpleGitHub.AddTwo(a, b))
 }
