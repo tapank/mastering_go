@@ -1,4 +1,4 @@
-package main
+package masteringgo
 
 import (
 	"bufio"
@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func mimic() {
 	scanner := bufio.NewScanner(os.Stdin)
 	for scanner.Scan() {
 		fmt.Println(">", scanner.Text())

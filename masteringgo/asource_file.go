@@ -1,4 +1,4 @@
-package main
+package masteringgo
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"github.com/mactsouk/go/simpleGitHub"
 )
 
-func main() {
+func addtwo() {
 	fmt.Println("This is a sample Go program!")
 	fmt.Println(simpleGitHub.AddTwo(3, 4))
 }

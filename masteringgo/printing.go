@@ -1,11 +1,11 @@
-package main
+package masteringgo
 
 import (
 	"fmt"
 	"os"
 )
 
-func main() {
+func printing() {
 	v1 := 123
 	v2 := "123"
 	v3 := "have a nice day"

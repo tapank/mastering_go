@@ -1,11 +1,11 @@
-package main
+package masteringgo
 
 import (
 	"fmt"
 	"os"
 )
 
-func main() {
+func renamefile() {
 	var fileName, newFileName string
 	if len(os.Args) != 3 {
 		fmt.Println("usage: go run osutils <fileName> <newFileName>")
