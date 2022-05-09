@@ -7,6 +7,5 @@ import (
 )
 
 func AddTwo(a, b int) {
-	fmt.Println("This is a sample Go program!")
-	fmt.Println(simpleGitHub.AddTwo(a, b))
+	fmt.Printf("AddTwo(%d, %d): %d\n", a, b, simpleGitHub.AddTwo(a, b))
 }

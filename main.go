@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 	"masteringgo/add"
+	"masteringgo/cla"
 )
 
 func main() {
 	add.AddTwo(5, 6)
-	fmt.Println("it worked!")
+	cla.MinMax()
+	fmt.Println("done")
 }
